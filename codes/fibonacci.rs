@@ -8,6 +8,7 @@ fn main() {
     let mut current: u128 = 1;
 
     let mut nth = String::new();
+    println!("Pick a number between 1 and 186:");
     stdin().read_line(&mut nth)
         .expect("Failed to read the nth number.");
 
